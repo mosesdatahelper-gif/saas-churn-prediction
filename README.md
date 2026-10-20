@@ -60,6 +60,49 @@ The analysis examined churn patterns across:
 
 Some observed differences were identified across industries and countries, while plan-tier churn rates were very similar.
 
+## Key Findings
+
+### Overall Churn
+
+- **Total customer accounts:** 500
+- **Churned accounts:** 110
+- **Overall observed churn rate:** 22%
+
+### Churn by Referral Source
+
+| Referral Source | Churn Rate |
+|---|---:|
+| Event | 30.21% |
+| Other | 24.27% |
+| Ads | 23.47% |
+| Organic | 17.54% |
+| Partner | 14.61% |
+
+Event-referred accounts had the highest observed churn rate, while partner-referred accounts had the lowest. Further investigation is needed to understand the differences.
+
+### Churn by Industry
+
+| Industry | Churn Rate |
+|---|---:|
+| DevTools | 30.97% |
+| FinTech | 22.32% |
+| HealthTech | 21.88% |
+| EdTech | 16.46% |
+| Cybersecurity | 16.00% |
+
+DevTools accounts had the highest observed churn rate, suggesting an area for further investigation into customer needs, product engagement, and retention.
+
+### Churn by Trial Status
+
+| Trial Status | Churn Rate |
+|---|---:|
+| Trial accounts | 25.77% |
+| Non-trial accounts | 21.09% |
+
+Trial accounts had a higher observed churn rate than non-trial accounts. Reviewing trial onboarding and conversion experiences may help identify opportunities to improve retention.
+
+**Interpretation note:** These are observed associations in a simulated dataset. They do not establish that referral source, industry, or trial status causes churn.
+
 ## Feature Engineering
 
 Additional features were created to improve the model:
@@ -143,3 +186,5 @@ saas-churn-prediction/
 ├── notebooks/
 │   └── SaaS_Churn_Prediction.ipynb
 └── README.md
+
+Add key churn findings to README
