@@ -185,6 +185,28 @@ saas-churn-prediction/
 │   └── ravenstack_accounts.csv
 ├── notebooks/
 │   └── SaaS_Churn_Prediction.ipynb
+├── 01_Overall_Churn_Rate.png
+├── 02_Churn_by_Referral_Source.png
+├── 03_Churn_by_Industry.png
+├── 04_Churn_by_Trial_Status.png
+├── requirements.txt
 └── README.md
+```
 
-Add key churn findings to README
+
+## Analysis Screenshots
+
+### Overall Churn Rate
+![Overall Churn Rate](01_Overall_Churn_Rate.png)
+
+### Churn by Referral Source
+![Churn by Referral Source](02_Churn_by_Referral_Source.png)
+
+### Churn by Industry
+![Churn by Industry](03_Churn_by_Industry.png)
+
+### Churn by Trial Status
+![Churn by Trial Status](04_Churn_by_Trial_Status.png)
+
+
+
